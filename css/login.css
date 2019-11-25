@@ -1,0 +1,55 @@
+/* Below line is used for online Google font */
+
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif);
+/*.form h2 {
+    text-align: center;
+    font-size: 22px;
+}
+*/
+
+div.container {
+    height: 100%;
+    width: 100%;
+    font-family: 'Droid Serif', serif;
+    position: relative;
+}
+
+div.main {
+    width: 320px;
+    float: left;
+    background-color: rgba(184, 203, 255, 1);
+    border: 15px solid white;
+    font-size: 13px;
+}
+
+input[type=text], [type=password] {
+    width: 97.7%;
+    height: 34px;
+    padding-left: 5px;
+    margin-bottom: 20px;
+    margin-top: 8px;
+    color: #4f4f4f;
+    font-size: 16px;
+}
+
+label {
+    color: #464646;
+    text-shadow: 0 1px 0 #fff;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#login {
+    width: 100%;
+    background: linear-gradient(#2225e9 5%, #369cf0 100%);
+    font-size: 20px;
+    margin-top: 15px;
+    padding: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+}
+
+#login:hover {
+    background: linear-gradient(#3936f0 5%, #6e22e9 100%);
+}
